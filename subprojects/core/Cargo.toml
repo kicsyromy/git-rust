@@ -1,0 +1,6 @@
+[package]
+name = "test_rs"
+version = "0.1.0"
+authors = ["Romeo Calota <Romeo.Calota@continental-corporation.com>"]
+
+[dependencies]
