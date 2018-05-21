@@ -1,6 +1,9 @@
 [package]
-name = "test_rs"
+name = "core"
 version = "0.1.0"
-authors = ["Romeo Calota <Romeo.Calota@continental-corporation.com>"]
+authors = ["Vlad Brudasca <vlad.brudasca96@e-uvt.ro>"]
 
 [dependencies]
+libc = "0.2"
+[lib]
+crate-type = ["staticlib"]
